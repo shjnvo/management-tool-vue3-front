@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  management_front:
+    build: .
+    volumes:
+      - .:/repo
+    ports:
+      - "8081:8081"
